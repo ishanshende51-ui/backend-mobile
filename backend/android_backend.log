@@ -1,0 +1,7 @@
+[Smart Travel Planner] MongoDB URL: mongodb://localhost:27017
+[Smart Travel Planner] CRITICAL: MongoDB connection failed!
+Check if MongoDB is running on mongodb://localhost:27017
+Error: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 8.0s, Topology Description: <TopologyDescription id: 6a8c7d07a5e9ff82214c4ca5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[Smart Travel Planner] users index warning: localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 8.0s, Topology Description: <TopologyDescription id: 6a8c7d07a5e9ff82214c4ca5, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [WinError 10061] No connection could be made because the target machine actively refused it (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+[API] GET /docs - 200 (1.03ms)
+INFO:     127.0.0.1:62704 - "GET /docs HTTP/1.1" 200 OK
